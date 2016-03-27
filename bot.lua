@@ -26,16 +26,16 @@ hi :)
 *EXAMPLE*
 
 /hyper [`Hi`]
-[*I'm a api bot* ]
+[*I'm zarbat writer bot* ]
 [_zarbat Team created me_]
 [[zarbat Channel](test)][(http://telegram.me/zarbat_tm)]
 
 *RESULT*
 
 `Hi`
-*I'm a api bot* 
+*I'm zarbat writer bot* 
 _zarbat Team created me_
-[BeatBot Channel](http://telegram.me/zarbat_tm)
+[zarbat Channel](http://telegram.me/zarbat_tm)
 
 *OTHER*
 
