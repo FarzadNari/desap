@@ -27,15 +27,15 @@ hi :)
 
 /hyper [`Hi`]
 [*I'm a api bot* ]
-[_BeatBot Team created me_]
-[[BeatBot Channel](test)][(http://telegram.me/beatbot_team)]
+[_zarbat Team created me_]
+[[zarbat Channel](test)][(http://telegram.me/zarbat_tm)]
 
 *RESULT*
 
 `Hi`
 *I'm a api bot* 
-_BeatBot Team created me_
-[BeatBot Channel](http://telegram.me/beatbot_team)
+_zarbat Team created me_
+[BeatBot Channel](http://telegram.me/zarbat_tm)
 
 *OTHER*
 
@@ -263,7 +263,7 @@ function msg_processor(msg)
 
 elseif msg.text:match("^/[sS]tart") or msg.text:match("^/[Hh]elp") then
  sendMessage(msg.chat.id, start, true, false, true)
-  sendMessage(msg.chat.id, [[[ربات خودتونو بسازید :)](http://telegram.me/beatbot_team)]], true, false, true)
+  sendMessage(msg.chat.id, [[[کانال پشتیبانی :)](http://telegram.me/zarbat_tm)]], true, false, true)
 return end
 
 end
