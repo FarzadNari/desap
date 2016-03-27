@@ -5,7 +5,7 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = "197215297:AAEcM0bnz7hNL_g6gWjEirgHZ745EKSMOcw"--توکن بوت را درون " قرار دهید --
+local bot_api_key = "169376408:AAHcuEaEuzZ83sqM3j39vMkMkK_4j00f9kY"--توکن بوت را درون " قرار دهید --
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[
@@ -21,7 +21,7 @@ hi :)
 - _test_
 
 /hyper [[text](url)](url)
-- [BeatBot](BeatBot.ir)
+- [zarbat writer](BeatBot.ir)
 
 *EXAMPLE*
 
@@ -263,7 +263,7 @@ function msg_processor(msg)
 
 elseif msg.text:match("^/[sS]tart") or msg.text:match("^/[Hh]elp") then
  sendMessage(msg.chat.id, start, true, false, true)
-  sendMessage(msg.chat.id, [[[کانال پشتیبانی :)](http://telegram.me/zarbat_tm)]], true, false, true)
+  sendMessage(msg.chat.id, [[[کانال پشتیبانی ](http://telegram.me/zarbat_tm)]], true, false, true)
 return end
 
 end
