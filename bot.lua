@@ -21,7 +21,7 @@ hi :)
 - _test_
 
 /hyper [[text](url)](url)
-- [zarbat writer](BeatBot.ir)
+- [github](github.com)
 
 *EXAMPLE*
 
